@@ -1,0 +1,356 @@
+
+:root{
+    --main-color:linear-gradient( 90deg, #FC4A1A 0%, #F7B733 100% );
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 0.13em;
+    height: 0.3em;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #ff7300;
+    border-radius: 0.25em;
+  }
+  
+body{
+    margin: 0;
+}
+p,h1,h2{
+    margin: 0;
+}
+.Home{
+    background-color: #27323E;
+  
+    
+}
+
+.HomeParts{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+}
+.ContNav{
+    margin-top: 50px;
+}
+.NameGrad{
+    font-size: 2rem;
+    letter-spacing: 0.9px;
+    background: var(--main-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: -moz-fit-content;
+    width: fit-content;
+
+}
+.kariem{
+    font-size: 2rem;
+    letter-spacing: 0.9px;
+    background: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: -moz-fit-content;
+    width: fit-content;
+
+}
+
+.pForHello{
+    width: 135px;
+    height: 65px;
+    border-radius: 40px 40px 40px 0;
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white; 
+}
+.h1ForName{
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+}
+.pForJop{
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 50px;
+    justify-content: space-around;
+}
+.divForIcon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.divForIcon:hover .img1  {
+    width: 60%;
+    height:60%
+}
+.divForIcon img{
+    width: 50%;
+    height: 50%;
+    transition: 0.2s;
+}
+.btn{
+    width: 180px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.leftLanding{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.containerLefRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightLanding{
+    width: 460px;
+    height: 470px;
+}
+.rightLanding img{
+    width: 100%;
+    height: 100%;
+    color: var(--main-color);
+}
+.divbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.divbtn button{
+    width: 45px;
+    height: 80px;
+    background-color: transparent;
+    border: 1px solid #ff7300;
+    border-radius: 25px;
+    display: flex;
+    color: #ff7300;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: end;
+
+}
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    background-color: #192027;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    height: 450px;
+    /* padding: 20px; */
+    flex-wrap: wrap;
+}
+.photoAboutMe{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photoAboutMe img{
+    width: 98%;
+    height: 98%;
+    border-radius: 50%;
+}
+.contRightAbout{
+    display: flex;
+    align-items: center;
+}
+.shape{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--main-color);
+}
+.AboutTitle{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-left: -5%;
+}
+.leftAboutMe{
+    width: 45%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightAboutMe{
+    height: 300px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;}
+
+    .PforMe{
+        line-height: 1.5;
+        width: 80%;
+        text-align: justify;
+        max-height: 220px;
+        overflow: auto;
+        color: #ffffffc2;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .Services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        /* height: 500px; */
+        justify-content: center;
+    }
+    .AllServices{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .ContainerGroupServices{
+        display: flex;
+        width: 400px;
+        flex-direction: column;
+        gap: 30px;    }
+    .contentService{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 300px;
+    }
+    .contentService h2{
+        color: white;
+    }
+    .contentService p{
+        text-align: justify;
+        color: #ffffffc4;
+    }
+    .logoInServices{
+        width: 300px;
+        height: 300px;
+    }
+    .logoInServices img{
+        width: 100%;
+        height: 100%;
+    }
+    .oneService{
+        display: flex;
+        /* gap: 10px; */
+        flex-wrap: wrap;
+        /* height: 147px; */
+        justify-content: space-evenly;
+    }
+    .PhotoOneService{
+        background: var(--main-color);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+
+    }
+    .PhotoOneService img{
+        width: 98%;
+        height: 98%;
+        border-radius:50% ;
+
+    }
+    .divProject{
+        
+    }
+    .imgProject{
+        width: 350px;
+        height: 300px;
+        filter: blur(1px);
+        
+    }
+    .Portfolio{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .image-container {
+        position: relative;
+        display: inline-block;
+        overflow: hidden; /* This ensures that hover-text doesn't overflow */
+      }
+      
+      .hover-image {
+        display: block;
+        width: 350px; /* Adjust the image width as needed */
+        height: 300px;
+        /* height: auto; */
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .image-container:hover .hover-image {
+        transform: scale(1.1); /* Zoom in the image on hover */
+      }
+      
+      .hover-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: opacity 0.3s ease-in-out;
+        /* pointer-events: none; */
+        font-size: 24px;
+        cursor: pointer;
+      }
+      
+      .image-container:hover .hover-text {
+        opacity: 1;
+      }
+      
