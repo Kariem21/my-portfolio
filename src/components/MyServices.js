@@ -11,18 +11,18 @@ import photoService5 from "../images/service5.jpg";
 
 
 
-const MyServices = () => {
+const MyServices = ({textColor}) => {
     return (
         <div className="Services">
 
             <div className="contRightAbout">
-                <span className="shape"></span>
+                <span style={{background:textColor}} className="shape"></span>
                 <span style={{marginLeft:"-10%"}} className="AboutTitle">My Services</span>
             </div>
             <div className="AllServices">
                 <div className="ContainerGroupServices">
                     <div className="oneService">
-                        <div className="PhotoOneService">
+                        <div style={{background:textColor}} className="PhotoOneService">
                             <img alt="service" src={photoService1}></img>
                         </div>
                         <div className="contentService">
@@ -34,10 +34,10 @@ const MyServices = () => {
 
                     </div>
                     <div className="oneService">
-                    <div className="PhotoOneService">
+                    <div  style={{background:textColor}} className="PhotoOneService">
                         <img alt="service" src={photoService2}></img>
                         </div>
-                        <div className="contentService">
+                        <div  className="contentService">
                             <h2> Smooth User Experience</h2>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                 Sit, praesentium reprehenderit, voluptas saepe illum porro
@@ -46,7 +46,7 @@ const MyServices = () => {
 
                     </div>
                     <div className="oneService">
-                        <div className="PhotoOneService">
+                        <div style={{background:textColor}} className="PhotoOneService">
                             <img alt="service" src={photoService4}></img>
                         </div>
                         <div className="contentService">
@@ -63,7 +63,7 @@ const MyServices = () => {
                 </div>
                 <div className="ContainerGroupServices">
                     <div className="oneService">
-                        <div className="PhotoOneService">
+                        <div style={{background:textColor}} className="PhotoOneService">
                             <img alt="service" src={responsive}></img>
                         </div>
                         <div className="contentService">
@@ -75,7 +75,7 @@ const MyServices = () => {
 
                     </div>
                     <div className="oneService">
-                    <div className="PhotoOneService">
+                    <div style={{background:textColor}} className="PhotoOneService">
                         <img alt="service" src={photoService5}></img>
                         </div>
                         <div className="contentService">
@@ -87,7 +87,7 @@ const MyServices = () => {
 
                     </div>
                     <div className="oneService">
-                    <div className="PhotoOneService">
+                    <div style={{background:textColor}} className="PhotoOneService">
                         <img alt="service" src={photoService3}></img>
                         </div>
                         <div className="contentService">

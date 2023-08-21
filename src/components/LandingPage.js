@@ -5,11 +5,15 @@ import github from "../images/github.png";
 import gmail from "../images/gmail.png";
 import linkedin from "../images/linkedin.png";
 import facebook from "../images/facebook.png";
-import landingPhoto from "../images/land.svg";
+// import landingPhoto from "../images/land.svg"
+import landingPhoto from "../images/Nerd-pana.svg"
+
+
 // import "./PDF/CV19-8-2023.pdf";
+import { FaUserNinja  } from "react-icons/fa";
 
 
-const LandingPage = ()=>{
+const LandingPage = ({textColor})=>{
 
     const handleDownload = () => {
         const pdfUrl = './PDF/CV19-8-2023.pdf';
@@ -23,7 +27,7 @@ const LandingPage = ()=>{
         <div>
             <div className="containerLefRight">
             <div className="leftLanding">
-                <p className="pForHello">Hello, i'm</p>
+                <p style={{background:textColor}} className="pForHello">Hello, i'm</p>
                 <h1 className="h1ForName">Eng.Kariem</h1>
                 <p className="pForJop">Frontend Developer</p>
                 <div className="icons">
@@ -47,19 +51,20 @@ const LandingPage = ()=>{
                     </div>
                     <div>
                         {/* <a href="CV19-8-2023.pdf" download="CV19-8-2023.pdf" target="_blank"> */}
-                            <button className="btn" onClick={handleDownload}>Download CV</button>
+                            <button style={{background: textColor}} className="btn" onClick={handleDownload}>Download CV</button>
                         {/* </a> */}
                     </div>
 
             </div>
             <div className="rightLanding">
-                <img alt="pho" src={landingPhoto}/>
+                <img style={{background:textColor}} alt="pho" src={landingPhoto}/>
+                {/* <FaUserNinja style={{background:textColor}} /> */}
 
             </div>
             </div>
-            <div className="divbtn">
+            {/* <div  className="divbtn">
                 <button>.</button>
-            </div>
+            </div> */}
             
              
 

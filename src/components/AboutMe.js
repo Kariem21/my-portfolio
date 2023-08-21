@@ -1,19 +1,19 @@
 
 
 import Mine from "../images/Myphoto.jpg"
-const AboutMe = ()=>{
+const AboutMe = ({textColor})=>{
     return(
         <div className="aboutMe">
 
             <div className="leftAboutMe">
-                <div className="photoAboutMe">
+                <div style={{background:textColor}} className="photoAboutMe">
                     <img alt="Me" src={Mine}/>
                 </div>    
                                
             </div>
             <div className="rightAboutMe">
                 <div className="contRightAbout">
-                    <span className="shape"></span><span className="AboutTitle">About Me</span>
+                    <span style={{background:textColor}} className="shape"></span><span className="AboutTitle">About Me</span>
                 </div>
                 <div>
                     <p className="PforMe custom-scrollbar">I am a recent graduate from Helwan University's

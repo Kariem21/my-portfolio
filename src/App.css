@@ -1,6 +1,8 @@
 
 :root{
     --main-color:linear-gradient( 90deg, #FC4A1A 0%, #F7B733 100% );
+    --second-color:linear-gradient(90deg, rgb(147, 141, 83) 0%, rgb(247, 183, 51) 100%);
+
 }
 
 .custom-scrollbar::-webkit-scrollbar {
@@ -13,7 +15,7 @@
   }
   
   .custom-scrollbar::-webkit-scrollbar-thumb {
-    background-color: #ff7300;
+    background-color: white;
     border-radius: 0.25em;
   }
   
@@ -49,6 +51,19 @@ p,h1,h2{
     width: -moz-fit-content;
     width: fit-content;
 
+}
+.btnChangeColor{
+    padding: 8px;
+    border: none;
+    background: var(--main-color);
+    border-radius: 5px;
+    color: white;
+}
+.ContNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .kariem{
     font-size: 2rem;
@@ -134,13 +149,14 @@ p,h1,h2{
     align-items: center;
 }
 .rightLanding{
-    width: 460px;
-    height: 470px;
+    width: 300px;
+    height: 300px;
 }
 .rightLanding img{
     width: 100%;
     height: 100%;
-    color: var(--main-color);
+    background: var(--main-color);
+    border-radius: 130px 70px 130px 20px;
 }
 .divbtn{
     width: 100%;
@@ -321,10 +337,11 @@ p,h1,h2{
       
       .hover-image {
         display: block;
-        width: 350px; /* Adjust the image width as needed */
+        width: 350px;
         height: 300px;
         /* height: auto; */
         transition: transform 0.3s ease-in-out;
+        filter: blur(1px);
       }
       
       .image-container:hover .hover-image {
@@ -332,6 +349,7 @@ p,h1,h2{
       }
       
       .hover-text {
+        text-transform: capitalize;
         position: absolute;
         top: 0;
         left: 0;
