@@ -136,6 +136,11 @@ p,h1,h2{
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 .leftLanding{
     display: flex;
@@ -164,9 +169,10 @@ p,h1,h2{
     justify-content: center;
 
 }
-.divbtn button{
-    width: 45px;
-    height: 80px;
+.divbtn button ,.divForIcon a{
+    width: 100%;
+    align-items: center;
+    height: 100%;
     background-color: transparent;
     border: 1px solid #ff7300;
     border-radius: 25px;
@@ -175,7 +181,6 @@ p,h1,h2{
     font-size: 50px;
     font-weight: bold;
     justify-content: center;
-    align-items: end;
 
 }
 .aboutMe{
