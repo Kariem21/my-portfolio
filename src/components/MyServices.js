@@ -27,9 +27,7 @@ const MyServices = ({textColor}) => {
                         </div>
                         <div className="contentService">
                             <h2> Web Design</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Sit, praesentium reprehenderit, voluptas saepe illum porro
-                                maiores alias tempore similique reiciendis quia voluptates? Minus officia</p>
+                            <p>Create stunning websites that look great and work well. We design websites that are not only attractive but also user-friendly, helping you make a strong impression online.</p>
                         </div>
 
                     </div>
@@ -39,9 +37,7 @@ const MyServices = ({textColor}) => {
                         </div>
                         <div  className="contentService">
                             <h2> Smooth User Experience</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Sit, praesentium reprehenderit, voluptas saepe illum porro
-                                maiores alias tempore similique reiciendis quia voluptates? Minus officia</p>
+                            <p>Make your website or app easy to use. We design interfaces that are simple to navigate, so your users can find what they need quickly and enjoy their experience.</p>
                         </div>
 
                     </div>
@@ -51,9 +47,7 @@ const MyServices = ({textColor}) => {
                         </div>
                         <div className="contentService">
                             <h2> High Quality Apps</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Sit, praesentium reprehenderit, voluptas saepe illum porro
-                                maiores alias tempore similique reiciendis quia voluptates? Minus officia</p>
+                            <p>Develop apps that are reliable and perform well. We build high-quality applications that work smoothly and meet your needs, ensuring a great experience for your users.</p>
                         </div>
 
                     </div>
@@ -68,9 +62,7 @@ const MyServices = ({textColor}) => {
                         </div>
                         <div className="contentService">
                             <h2> Responsive Designs</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Sit, praesentium reprehenderit, voluptas saepe illum porro
-                                maiores alias tempore similique reiciendis quia voluptates? Minus officia</p>
+                            <p>Ensure your website looks good on any device. We create designs that adapt to different screen sizes, so your site is easy to use whether it's viewed on a computer, tablet, or phone.</p>
                         </div>
 
                     </div>
@@ -79,10 +71,8 @@ const MyServices = ({textColor}) => {
                         <img alt="service" src={photoService5}></img>
                         </div>
                         <div className="contentService">
-                            <h2> Web Development</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Sit, praesentium reprehenderit, voluptas saepe illum porro
-                                maiores alias tempore similique reiciendis quia voluptates? Minus officia</p>
+                            <h2> User Research</h2>
+                            <p>Learn about your users to create what they really want. We find out what users need and how they behave through surveys, interviews, and observations. This helps us design products that are easy to use and meet their needs.</p>
                         </div>
 
                     </div>
@@ -92,9 +82,7 @@ const MyServices = ({textColor}) => {
                         </div>
                         <div className="contentService">
                             <h2> Beautiful Design</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Sit, praesentium reprehenderit, voluptas saepe illum porro
-                                maiores alias tempore similique reiciendis quia voluptates? Minus officia</p>
+                            <p>Make your brand stand out with eye-catching designs. We focus on creating visually appealing designs that are also practical, helping you attract and engage your audience.</p>
                         </div>
 
                     </div>

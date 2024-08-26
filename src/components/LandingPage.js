@@ -29,7 +29,7 @@ const LandingPage = ({ textColor }) => {
             Hello, i'm
           </p>
           <h1 className="h1ForName">Eng.Kariem</h1>
-          <p className="pForJop">Frontend Developer</p>
+          <p className="pForJop">UI UX Designer</p>
           <div className="icons">
             <div className="divForIcon">
               <a
@@ -69,7 +69,7 @@ const LandingPage = ({ textColor }) => {
               </a>
             </div>
           </div>
-          <a  className="btn"  href="https://flowcv.com/resume/sr797v0gbc" rel="noreferrer" target="_blank">MY CV</a>
+          <a  className="btn"  href="https://drive.google.com/file/d/1mMfHmAJOvtrl4rouOuDuqYud9iuyDPGT/view?usp=sharing" rel="noreferrer" target="_blank">MY CV</a>
 
           {/* <div>
             <button

@@ -16,20 +16,7 @@ const AboutMe = ({textColor})=>{
                     <span style={{background:textColor}} className="shape"></span><span className="AboutTitle">About Me</span>
                 </div>
                 <div>
-                    <p className="PforMe custom-scrollbar">I am a recent graduate from Helwan University's
-                        Faculty of Computer Science, specializing in front-end
-                        development with a focus on designing and coding
-                        with React. <br />
-                        Passionate about creating visually appealing and userfriendly interfaces, I am excited to embark on a career
-                        as a front-end developer, bringing designs to life and
-                        enhancing user experiences.
-                        With a solid foundation in computer science
-                        principles, I am equipped to tackle complex challenges
-                        and optimize performance to deliver high-quality web
-                        solutions.<br /><br />
-                        Constantly seeking opportunities for growth and
-                        staying up-to-date with the latest industry trends, I am
-                        dedicated to continuous learning and honing my skills
+                    <p className="PforMe custom-scrollbar">I’m a UI/UX Designer who loves creating easy-to-use and visually appealing experiences. I’m skilled in user research, wireframing, and prototyping, with Figma as my main design tool. My background in front-end development helps me connect design and development smoothly. I’m a fast learner and excited to work with creative teams to build great user experiences. I focus on understanding what users need and applying design principles to make sure interfaces are both attractive and functional.
                         as a front-end developer.
                     </p>
                 </div>

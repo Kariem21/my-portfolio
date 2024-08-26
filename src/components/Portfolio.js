@@ -75,7 +75,11 @@ const Portfolio = ({ textColor }) => {
         </div>
         {/* </div> */}
         {/* <div className="divProject"> */}
-        <div className="image-container">
+
+
+
+
+        {/* <div className="image-container">
           <img src={project2} className="hover-image" alt="Hover " />
 
           <a
@@ -86,7 +90,11 @@ const Portfolio = ({ textColor }) => {
           >
             similar To Noon
           </a>
-        </div>{" "}
+        </div>{" "} */}
+
+
+
+        
         {/* </div>  */}
         {/* <div className="divProject"> */}
         {/* <div className="image-container">
@@ -94,7 +102,9 @@ const Portfolio = ({ textColor }) => {
           <div className="hover-text">Go to see test on js, html and css</div>
         </div>{" "} */}
         {/* </div> <div> */}
-        <div className="image-container">
+
+
+       {/*  <div className="image-container">
           <img src={project4} className="hover-image" alt="Hover " />
 
           <a
@@ -105,8 +115,11 @@ const Portfolio = ({ textColor }) => {
           >
             Products Details
           </a>
-        </div>{" "}
+        </div>{" "} */}
         {/* </div> */}
+
+
+
         {/* <div className="divProject"> */}
         {/* <div className="image-container">
                 <img src={project5} className="hover-image" alt="Hover " />
@@ -125,7 +138,7 @@ const Portfolio = ({ textColor }) => {
         </div>{" "} */}
         {/* </div>  */}
         {/* <div className="divProject"> */}
-        <div className="image-container">
+        {/* <div className="image-container">
           <img src={project9} className="hover-image" alt="Hover " />
 
           <a
@@ -148,7 +161,7 @@ const Portfolio = ({ textColor }) => {
           >
             Curruncy Converter
           </a>
-        </div>
+        </div> */}
         {/* </div> */}
       </div>
     </>
