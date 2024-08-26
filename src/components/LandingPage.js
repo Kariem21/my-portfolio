@@ -1,5 +1,6 @@
 import whatsap from "../images/whatsap.png";
 import github from "../images/github.png";
+import behance from "../images/behancel.svg";
 import gmail from "../images/gmail.png";
 import linkedin from "../images/linkedin.png";
 import facebook from "../images/facebook.png";
@@ -31,6 +32,25 @@ const LandingPage = ({ textColor }) => {
           <h1 className="h1ForName">Eng.Kariem</h1>
           <p className="pForJop">UI UX Designer</p>
           <div className="icons">
+            
+          <div className="divForIcon">
+              <a
+                target="_blank"
+                href="https://www.behance.net/kariem_atef"
+                rel="noreferrer"
+              >
+                <img className="img1" alt="behance" src={behance} />
+              </a>
+            </div>
+            <div className="divForIcon">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/kariem-atef-b819171b9"
+                rel="noreferrer"
+              >
+                <img className="img1" alt="linkedin" src={linkedin} />
+              </a>
+            </div>
             <div className="divForIcon">
               <a
                 target="_blank"
@@ -49,15 +69,7 @@ const LandingPage = ({ textColor }) => {
                 <img className="img1" alt="facebook" src={facebook} />
               </a>
             </div>
-            <div className="divForIcon">
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/kariem-atef-b819171b9"
-                rel="noreferrer"
-              >
-                <img className="img1" alt="linkedin" src={linkedin} />
-              </a>
-            </div>
+            
             <div className="divForIcon">
               <a href="mailto:Kariem.Atef21@gmail.com">
                 <img className="img1" alt="gmail" src={gmail} />

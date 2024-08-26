@@ -102,9 +102,10 @@ p,h1,h2{
 .icons{
     display: flex;
     flex-direction: row;
-    width: 250px;
-    height: 50px;
-    justify-content: space-around;
+    /* width: 250px; */
+    /* height: 50px; */
+    /* justify-content: space-around; */
+    gap: 15px;
 }
 .divForIcon{
     width: 40px;
@@ -122,8 +123,8 @@ p,h1,h2{
     height:60%
 }
 .divForIcon img{
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
     transition: 0.2s;
 }
 .btn{
@@ -348,7 +349,7 @@ p,h1,h2{
         height: 300px;
         /* height: auto; */
         transition: transform 0.3s ease-in-out;
-        filter: blur(1px);
+        /* filter: blur(1px); */
       }
       
       .image-container:hover .hover-image {
