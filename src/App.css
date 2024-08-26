@@ -35,8 +35,8 @@ p,h1,h2{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    width: 90%;
     margin: auto;
+    width: 85%;
 }
 .ContNav{
     margin-top: 50px;
@@ -149,10 +149,11 @@ p,h1,h2{
     gap: 20px;
 }
 .containerLefRight{
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 .rightLanding{
     width: 300px;
@@ -264,7 +265,7 @@ p,h1,h2{
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-wrap: wrap;
         padding: 20px;
     }
@@ -327,13 +328,13 @@ p,h1,h2{
         
     }
     .Portfolio{
-        width: 100%;
+        align-items: center;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        row-gap: 50px;
+        justify-content: space-between;
         margin-bottom: 50px;
-        gap: 20px;
+        width: 100%;
     }
 
 
