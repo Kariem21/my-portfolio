@@ -1,12 +1,12 @@
 
 
 import Services from "../images/logoinCenterServices.png"
-import photoService1 from "../images/service1.png";
-import responsive from "../images/responsive.png";
-import photoService2 from "../images/service2.jpg";
-import photoService3 from "../images/service3.jpg";
-import photoService4 from "../images/service4.jpg";
-import photoService5 from "../images/service5.jpg";
+import photoService1 from "../images/webDesign.jpg";
+import responsive from "../images/responsive.jpg";
+import photoService2 from "../images/userEx.jpg";
+import photoService3 from "../images/design.jpg";
+import photoService4 from "../images/qualityapp.jpg";
+import photoService5 from "../images/userResearch.jpg";
 
 
 

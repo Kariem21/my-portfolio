@@ -295,9 +295,9 @@ p,h1,h2{
     }
     .oneService{
         display: flex;
-        /* gap: 10px; */
+        gap: 10px;
         flex-wrap: wrap;
-        /* height: 147px; */
+        height: 147px;
         justify-content: space-evenly;
     }
     .PhotoOneService{
@@ -332,6 +332,7 @@ p,h1,h2{
         justify-content: center;
         align-items: center;
         margin-bottom: 50px;
+        gap: 20px;
     }
 
 
