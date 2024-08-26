@@ -1,20 +1,11 @@
 import project1 from "../images/project12.png";
-import project2 from "../images/project2.png";
-import project3 from "../images/project3.png";
-import project4 from "../images/project41.png";
-import project5 from "../images/project5.png";
 import project6 from "../images/project61.png";
 import project7 from "../images/project7.png";
-import project8 from "../images/project8.png";
-import project9 from "../images/project9.png";
-import project10 from "../images/project10.png";
 import project11 from "../images/project11.png";
 import project12 from "../images/profound.jpg";
 import project13 from "../images/Cover.jpg";
 import project14 from "../images/1.jpg";
 import project15 from "../images/2.jpg";
-
-
 
 const Portfolio = ({ textColor }) => {
   return (
@@ -28,7 +19,7 @@ const Portfolio = ({ textColor }) => {
       </div>
       <div className="Portfolio">
         {/* <div className="divProject"> */}
-        
+
         <div className="image-container">
           <img src={project12} className="hover-image" alt="Hover " />
 
@@ -46,13 +37,13 @@ const Portfolio = ({ textColor }) => {
           <img src={project14} className="hover-image" alt="Hover " />
 
           <a
-            href="https://www.behance.net/gallery/200754733/Shoesii-app"
+            href="https://www.behance.net/gallery/198330651/fashion-app-screens"
             target="_blank"
             rel="noreferrer"
             className="hover-text"
           >
             {" "}
-           Fashion app 
+            Fashion app
           </a>
         </div>
 
@@ -66,7 +57,7 @@ const Portfolio = ({ textColor }) => {
             className="hover-text"
           >
             {" "}
-           Shoesii app 
+            Shoesii app
           </a>
         </div>
 
@@ -80,12 +71,9 @@ const Portfolio = ({ textColor }) => {
             className="hover-text"
           >
             {" "}
-           The Developer Website 
+            The Developer Website
           </a>
         </div>
-
-
-
 
         <div className="image-container">
           <img src={project7} className="hover-image" alt="Hover " />
@@ -141,9 +129,6 @@ const Portfolio = ({ textColor }) => {
         {/* </div> */}
         {/* <div className="divProject"> */}
 
-
-
-
         {/* <div className="image-container">
           <img src={project2} className="hover-image" alt="Hover " />
 
@@ -157,9 +142,6 @@ const Portfolio = ({ textColor }) => {
           </a>
         </div>{" "} */}
 
-
-
-        
         {/* </div>  */}
         {/* <div className="divProject"> */}
         {/* <div className="image-container">
@@ -168,8 +150,7 @@ const Portfolio = ({ textColor }) => {
         </div>{" "} */}
         {/* </div> <div> */}
 
-
-       {/*  <div className="image-container">
+        {/*  <div className="image-container">
           <img src={project4} className="hover-image" alt="Hover " />
 
           <a
@@ -182,8 +163,6 @@ const Portfolio = ({ textColor }) => {
           </a>
         </div>{" "} */}
         {/* </div> */}
-
-
 
         {/* <div className="divProject"> */}
         {/* <div className="image-container">

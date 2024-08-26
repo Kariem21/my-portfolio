@@ -4,24 +4,10 @@ import behance from "../images/behancel.svg";
 import gmail from "../images/gmail.png";
 import linkedin from "../images/linkedin.png";
 import facebook from "../images/facebook.png";
-// import landingPhoto from "../images/land.svg"
 import landingPhoto from "../images/Nerd-pana.svg";
 import React from "react";
 
-// import "./PDF/CV19-8-2023.pdf";
-// import { FaUserNinja } from "react-icons/fa";
-
 const LandingPage = ({ textColor }) => {
-  // const handleDownload = () => {
-  //   // const pdfUrl = 'http://localhost:3003/src/components/CV.pdf';
-  //   const pdfUrl = "https://flowcv.com/resume/sr797v0gbc";
-  //   const link = document.createElement("a");
-  //   link.href = pdfUrl;
-  //   link.target = "_blank";
-  //   // link.download = 'CV.pdf';
-  //   link.click();
-  // };
-
   return (
     <div>
       <div className="containerLefRight">
@@ -32,8 +18,7 @@ const LandingPage = ({ textColor }) => {
           <h1 className="h1ForName">Eng.Kariem</h1>
           <p className="pForJop">UI UX Designer</p>
           <div className="icons">
-            
-          <div className="divForIcon">
+            <div className="divForIcon">
               <a
                 target="_blank"
                 href="https://www.behance.net/kariem_atef"
@@ -69,7 +54,7 @@ const LandingPage = ({ textColor }) => {
                 <img className="img1" alt="facebook" src={facebook} />
               </a>
             </div>
-            
+
             <div className="divForIcon">
               <a href="mailto:Kariem.Atef21@gmail.com">
                 <img className="img1" alt="gmail" src={gmail} />
@@ -81,26 +66,19 @@ const LandingPage = ({ textColor }) => {
               </a>
             </div>
           </div>
-          <a  className="btn"  href="https://drive.google.com/file/d/1mMfHmAJOvtrl4rouOuDuqYud9iuyDPGT/view?usp=sharing" rel="noreferrer" target="_blank">MY CV</a>
-
-          {/* <div>
-            <button
-              style={{ background: textColor }}
-             
-              onClick={handleDownload}
-            >
-              MY CV
-            </button>
-          </div> */}
+          <a
+            className="btn"
+            href="https://drive.google.com/file/d/1mMfHmAJOvtrl4rouOuDuqYud9iuyDPGT/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
+            MY CV
+          </a>
         </div>
         <div className="rightLanding">
           <img style={{ background: textColor }} alt="pho" src={landingPhoto} />
-          {/* <FaUserNinja style={{background:textColor}} /> */}
         </div>
       </div>
-      {/* <div  className="divbtn">
-                <button>.</button>
-            </div> */}
     </div>
   );
 };
