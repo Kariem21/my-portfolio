@@ -68,7 +68,7 @@ const LandingPage = ({ textColor }) => {
           </div>
           <a
             className="btn"
-            href="https://drive.google.com/file/d/1mMfHmAJOvtrl4rouOuDuqYud9iuyDPGT/view?usp=sharing"
+            href="https://drive.google.com/file/d/1HDsyAqY_Pwk2FvJcRncDrKjtrM3pad4r/view?usp=sharing"
             rel="noreferrer"
             target="_blank"
           >
